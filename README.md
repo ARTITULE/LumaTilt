@@ -31,3 +31,14 @@ Note: This guide assumes that you have PlatformIO installed and configured.
 3. Connect the board to your computer.
 4. Select the "LumaTilt" environment.
 5. Upload the firmware and enjoy!
+
+## BOM
+
+Please note that some of the parts on LCSC have a minimum ordering quantity.
+
+|Item                                                            |Qty|Supplier|Cost/item     |Total Cost|link                |
+|----------------------------------------------------------------|---|--------|--------------|----------|--------------------|
+|PCB                                                             |1  |JLCPCB  |$9.90         |$9.90     |[JLCPCB](https://jlcpcb.com)|
+|Components from LCSC(Please upload the PCB BOM to their website)|1  |LCSC    |$60(Estimated)|$60       |[LCSC](https://www.lcsc.com)|
+|Estimated total shipping                                        |1  |        |              |$20.00    |                    |
+|Estimated TOTAL                                                 |   |        |              |$89.9     |                    |
