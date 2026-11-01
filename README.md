@@ -34,7 +34,7 @@ Note: This guide assumes that you have PlatformIO installed and configured.
 
 ## BOM
 
-Please note that some of the parts on LCSC have a minimum ordering quantity.
+Please note that some of the parts on LCSC have a minimum ordering quantity.(Also if you know what you are doing you can find cheaper LED's on LCSC)
 
 |Item                                                            |Qty|Supplier|Cost/item     |Total Cost|link                |
 |----------------------------------------------------------------|---|--------|--------------|----------|--------------------|
