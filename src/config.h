@@ -1,0 +1,14 @@
+#pragma once
+
+#define SPI_SCLK 4
+#define SPI_MOSI 5
+#define SPI_SPEED 1000000
+
+#define ROW_OE 3
+#define ROW_LATCH 6
+
+#define COL_LATCH 7
+#define COL_BLANK 10
+
+#define MATRIX_HEIGHT 24
+#define MATRIX_WIDTH 72
