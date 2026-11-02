@@ -1,7 +1,10 @@
 #include <Arduino.h>
 
 #include "display.h"
+#include "button.h"
 #include "config.h"
+
+#define BUTTON_PIN 0
 
 void flashingMode();
 void walkingPixelMode();
@@ -9,6 +12,7 @@ void walkingPixelMode();
 void setup() {
 
     displayBegin();
+    buttonBegin(BUTTON_PIN);
 
 }
 
@@ -22,6 +26,11 @@ void loop() {
 void flashingMode() {
 
     while (1) {
+
+        ButtonEvent event = buttonTick();
+        if (event == BUTTON_SHORT_PRESS) {
+            return;
+        }
 
         static bool state;
         static uint32_t flashTimer = millis();
@@ -38,6 +47,11 @@ void flashingMode() {
 void walkingPixelMode() {
 
     while (1) {
+
+        ButtonEvent event = buttonTick();
+        if (event == BUTTON_SHORT_PRESS) {
+            return;
+        }
 
         static uint8_t x;
         static uint8_t y;
